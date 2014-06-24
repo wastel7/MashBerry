@@ -55,7 +55,7 @@ int QTempSensorDS18B20::Open()
     for(i=0;i<cnt;i++)
     {
         fname = dirlist[i];
-        if(fname != "w1_bus_master1" && fname.contains("28-"))
+        if(fname != "w1_bus_master1" && fname.contains("-"))
         {
             fname = dir.absoluteFilePath(fname) + "/w1_slave";
             m_fname = new char[fname.length()+1];
