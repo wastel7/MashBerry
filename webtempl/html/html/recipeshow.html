@@ -1,0 +1,116 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>MashBerry {Recipe display}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="Generator" content="NetObjects 12 (http://www.netobjects.com)">
+<div id="bgAllDiv">
+<script type="text/javascript">
+<!--
+function F_loadRollover(){} function F_roll(){}
+//-->
+</script>
+<script type="text/javascript" src="../assets/rollover.js">
+</script>
+<link rel="stylesheet" type="text/css" href="../html/fusion.css">
+<link rel="stylesheet" type="text/css" href="../html/style.css">
+<link rel="stylesheet" type="text/css" href="../html/site.css">
+</head>
+<body style="margin: 0px;">
+  <div id="bgTopDiv">
+<center>
+  <table border="0" cellspacing="0" cellpadding="0" width="784">
+    <tr valign="top" align="left">
+      <td width="12" height="135"><img src="../assets/images/autogen/clearpixel.gif" width="12" height="1" border="0" alt=""></td>
+      <td width="8"><img src="../assets/images/autogen/clearpixel.gif" width="8" height="1" border="0" alt=""></td>
+      <td width="1"><img src="../assets/images/autogen/clearpixel.gif" width="1" height="1" border="0" alt=""></td>
+      <td width="171"><img src="../assets/images/autogen/clearpixel.gif" width="171" height="1" border="0" alt=""></td>
+      <td></td>
+      <td width="164"><img src="../assets/images/autogen/clearpixel.gif" width="164" height="1" border="0" alt=""></td>
+      <td width="1"><img src="../assets/images/autogen/clearpixel.gif" width="1" height="1" border="0" alt=""></td>
+      <td width="11"><img src="../assets/images/autogen/clearpixel.gif" width="11" height="1" border="0" alt=""></td>
+      <td width="12"><img src="../assets/images/autogen/clearpixel.gif" width="12" height="1" border="0" alt=""></td>
+    </tr>
+    <tr valign="top" align="left">
+      <td colspan="4" height="36"></td>
+      <td width="404">
+        <table id="NavigationBar1" border="0" cellspacing="0" cellpadding="0" width="404" style="text-align: center;">
+          <tr valign="top" align="left">
+            <td width="101"><a href="../index.html" class="nof-navButtonAnchor" onmouseover="F_loadRollover('Navigationsschaltflaeche1','',0);F_roll('Navigationsschaltflaeche1',1)" onmouseout="F_roll('Navigationsschaltflaeche1',0)"><img id="Navigationsschaltflaeche1" name="Navigationsschaltflaeche1" height="36" width="101" src="../assets/images/autogen/Home_Np_Regular.jpg" onmouseover="F_loadRollover(this,'Home_NRp_RegularOver.jpg',0)" border="0" alt="Home" title="Home"></a></td>
+            <td width="101"><a href="../html/status.html" class="nof-navButtonAnchor" onmouseover="F_loadRollover('Navigationsschaltflaeche2','',0);F_roll('Navigationsschaltflaeche2',1)" onmouseout="F_roll('Navigationsschaltflaeche2',0)"><img id="Navigationsschaltflaeche2" name="Navigationsschaltflaeche2" height="36" width="101" src="../assets/images/autogen/Status_Np_Regular.jpg" onmouseover="F_loadRollover(this,'Status_NRp_RegularOver.jpg',0)" border="0" alt="Status" title="Status"></a></td>
+            <td width="101"><a href="../html/-recipes-.html" class="nof-navButtonAnchor" onmouseover="F_loadRollover('Navigationsschaltflaeche3','',0);F_roll('Navigationsschaltflaeche3',1)" onmouseout="F_roll('Navigationsschaltflaeche3',0)"><img id="Navigationsschaltflaeche3" name="Navigationsschaltflaeche3" height="36" width="101" src="../assets/images/autogen/-Recipes-_Hp_Highlighted.jpg" onmouseover="F_loadRollover(this,'-Recipes-_HRp_HighlightedOver.jpg',0)" border="0" alt="{Recipes}" title="{Recipes}"></a></td>
+            <td width="101" height="36"><a href="../html/-settings-.html" class="nof-navButtonAnchor" onmouseover="F_loadRollover('Navigationsschaltflaeche4','',0);F_roll('Navigationsschaltflaeche4',1)" onmouseout="F_roll('Navigationsschaltflaeche4',0)"><img id="Navigationsschaltflaeche4" name="Navigationsschaltflaeche4" height="36" width="101" src="../assets/images/autogen/-Settings-_Np_Regular.jpg" onmouseover="F_loadRollover(this,'-Settings-_NRp_RegularOver.jpg',0)" border="0" alt="{Settings}" title="{Settings}"></a></td>
+          </tr>
+        </table>
+      </td>
+      <td colspan="4"></td>
+    </tr>
+    <tr valign="top" align="left">
+      <td colspan="9" height="64"></td>
+    </tr>
+    <tr valign="top" align="left">
+      <td colspan="2"></td>
+      <td colspan="4" width="740" id="Text133" class="TextObject">
+        <h2 style="margin-bottom: 0px;">{Recipe display}</h2>
+      </td>
+      <td colspan="3"></td>
+    </tr>
+    <tr valign="top" align="left">
+      <td colspan="9" height="74"></td>
+    </tr>
+    <tr valign="top" align="left">
+      <td colspan="3"></td>
+      <td colspan="4" width="740" id="Text58" class="TextObject">
+        <ul>
+          <h2><span style="font-size: 20px;">{Name}:</span> <span style="font-size: 20px;">{recipename}</span></h2>
+          <h2><br>{loop recipestep}<br><span style="font-size: 20px;">{recipestep.Step} {recipestep.num}:</span> <span style="font-size: 16px;">{recipestep.stepname}<br></span><span style="font-size: 20px;">{recipestep.Temperature}:</span> <span style="font-size: 16px;">{recipestep.steptemp}<br></span><span style="font-size: 20px;">{recipestep.Time}:</span> <span style="font-size: 16px;">{recipestep.steptime}</span>&nbsp; <span style="font-size: 20px;">&nbsp; </span></h2>
+          <h2 style="margin-bottom: 0px;">{end recipestep}<br>&nbsp;</h2>
+        </ul>
+      </td>
+      <td colspan="2"></td>
+    </tr>
+    <tr valign="top" align="left">
+      <td colspan="9" height="41"></td>
+    </tr>
+    <tr valign="top" align="left">
+      <td height="88"></td>
+      <td colspan="7" width="760"><center>
+        <table border="0" cellspacing="0" cellpadding="0" width="760" id="LayoutRegion2" style="background-color: rgb(240,243,246); background-repeat: repeat-x; border: 1px solid rgb(0,0,0); height: 88px;">
+          <tr align="left" valign="top">
+            <td>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr valign="top" align="left">
+                  <td width="215" height="25"><img src="../assets/images/autogen/clearpixel.gif" width="215" height="1" border="0" alt=""></td>
+                  <td></td>
+                  <td width="265"><img src="../assets/images/autogen/clearpixel.gif" width="265" height="1" border="0" alt=""></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td></td>
+                  <td width="280" class="TextNavBar" style="text-align: right;"><a class="nof-navPositioning" href="../index.html">Home</a> | <a class="nof-navPositioning" href="../html/status.html">Status</a> | <a class="nof-navPositioning" href="../html/-recipes-.html">{Recipes}</a> | <a class="nof-navPositioning" href="../html/-settings-.html">{Settings}</a> |</td>
+                  <td></td>
+                </tr>
+              </table>
+              <table border="0" cellspacing="0" cellpadding="0" width="760">
+                <tr valign="top" align="left">
+                  <td width="760" height="24"><img src="../assets/images/autogen/clearpixel.gif" width="760" height="1" border="0" alt=""></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td width="760" id="Text134" class="TextObject">
+                    <p style="text-align: center; margin-bottom: 0px;"><span style="font-size: 9px;">Copyright (C) 2013 by Sebastian Duell</span></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        </center></td>
+      <td></td>
+    </tr>
+  </table>
+  </div>
+</center>
+</body>
+</html>
+</div>
+ 

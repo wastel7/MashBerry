@@ -1,0 +1,13 @@
+<Settings>
+    <Sensor>PT1000</Sensor>
+    <Language>eng</Language>
+    <SinglePIDparam>1</SinglePIDparam>
+    <PID>
+        <PIDParams>
+            <Temp>60</Temp>
+            <Kp>55.3043</Kp>
+            <Ki>0.044852</Ki>
+            <Kd>15440.4</Kd>
+        </PIDParams>
+    </PID>
+</Settings>

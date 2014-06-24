@@ -1,0 +1,170 @@
+begin
+        remote = Hauppauge_350
+        button = Left
+        prog   = MashBerry
+        repeat = 0
+        config = 1
+end
+begin
+        remote = Hauppauge_350
+        button = Right
+        prog   = MashBerry
+        repeat = 0
+        config = 2
+end
+begin
+        remote = Hauppauge_350
+        button = Up
+        prog   = MashBerry
+        repeat = 0
+        config = 3
+end
+begin
+        remote = Hauppauge_350
+        button = Down
+        prog   = MashBerry
+        repeat = 0
+        config = 4
+end
+begin
+        remote = Hauppauge_350
+        button = Vol+
+        prog   = MashBerry
+        repeat = 0
+        config = 5
+end
+begin
+        remote = Hauppauge_350
+        button = Vol-
+        prog   = MashBerry
+        repeat = 0
+        config = 6
+end
+begin
+        remote = Hauppauge_350
+        button = Ch+
+        prog   = MashBerry
+        repeat = 0
+        config = 7
+end
+begin
+        remote = Hauppauge_350
+        button = Ch-
+        prog   = MashBerry
+        repeat = 0
+        config = 8
+end
+
+begin
+        remote = Hauppauge_350
+        button = Stop
+        prog   = MashBerry
+        repeat = 0
+        config = 9
+end
+begin
+        remote = Hauppauge_350
+        button = Play
+        prog   = MashBerry
+        repeat = 0
+        config = 10
+end
+begin
+        remote = Hauppauge_350
+        button = OK
+        prog   = MashBerry
+        repeat = 0
+        config = 11
+end
+begin
+        remote = Hauppauge_350
+        button = 0
+        prog   = MashBerry
+        repeat = 0
+        config = 12
+end
+begin
+        remote = Hauppauge_350
+        button = 1
+        prog   = MashBerry
+        repeat = 0
+        config = 13
+end
+begin
+        remote = Hauppauge_350
+        button = 2
+        prog   = MashBerry
+        repeat = 0
+        config = 14
+end
+begin
+        remote = Hauppauge_350
+        button = 3
+        prog   = MashBerry
+        repeat = 0
+        config = 15
+end
+begin
+        remote = Hauppauge_350
+        button = 4
+        prog   = MashBerry
+        repeat = 0
+        config = 16
+end
+begin
+        remote = Hauppauge_350
+        button = 5
+        prog   = MashBerry
+        repeat = 0
+        config = 17
+end
+begin
+        remote = Hauppauge_350
+        button = 6
+        prog   = MashBerry
+        repeat = 0
+        config = 18
+end
+begin
+        remote = Hauppauge_350
+        button = 7
+        prog   = MashBerry
+        repeat = 0
+        config = 19
+end
+begin
+        remote = Hauppauge_350
+        button = 8
+        prog   = MashBerry
+        repeat = 0
+        config = 20
+end
+begin
+        remote = Hauppauge_350
+        button = 9
+        prog   = MashBerry
+        repeat = 0
+        config = 21
+end
+begin
+        remote = Hauppauge_350
+        button = Back/Exit
+        prog   = MashBerry
+        repeat = 0
+        config = 22
+end
+begin
+        remote = Hauppauge_350
+        button = Menu/i
+        prog   = MashBerry
+        repeat = 0
+        config = 23
+end
+begin
+        remote = Hauppauge_350
+        button = Power
+        prog   = MashBerry
+        repeat = 0
+        config = 24
+end
+

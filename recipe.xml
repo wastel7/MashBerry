@@ -1,0 +1,27 @@
+<Recipes>
+    <Recipe>
+        <Name>Pilsener</Name>
+        <Steps>
+            <Step>
+                <Name>Einmaischen</Name>
+                <Temp>50</Temp>
+                <Time>1</Time>
+            </Step>
+            <Step>
+                <Name>1. Rast</Name>
+                <Temp>60</Temp>
+                <Time>60</Time>
+            </Step>
+            <Step>
+                <Name>2. Rast</Name>
+                <Temp>72</Temp>
+                <Time>30</Time>
+            </Step>
+            <Step>
+                <Name>Abmaischen</Name>
+                <Temp>78</Temp>
+                <Time>0</Time>
+            </Step>
+        </Steps>
+    </Recipe>
+</Recipes>

@@ -1,0 +1,68 @@
+1.2.11
+06.01.2012
+Added clearing the write buffer when accepting a new connection, so that it does not send
+remaining data from an aborted previous connection (which is possibly a bug in QT).
+
+1.2.10
+18.12.2012
+Reduced memory usage of HttpResponse in case of large response.
+
+1.2.9
+29.07.2012
+Added a mutex to HttpConnectionHandlerPool to fix a concurrency issue when a pooled object gets
+taken from the cache while it times out.
+Modified HttpConnectionHandler so that it does not throw an exception anymore when a connection
+gets closed by the peer in the middle of a read.
+
+1.2.8
+22.07.2012
+Fixed a possible concurrency issue when the file cache is so small that it stores less
+files than the number of threads.
+
+1.2.7
+18.07.2012
+Fixed HttpRequest ignores additional URL parameters of POST requests.
+Fixed HttpRequest ignores POST parameters of body if there is no Content-Type header.
+Removed unused tempdir variable from HttpRequest.
+Added mutex to cache of StaticFileController to prevent concurrency problems.
+Removed HTTP response with status 408 after read timeout. Connection gets simply closed now.
+
+1.2.6
+29.06.2012
+Fixed a compilation error on 64 bit if super verbose debugging is enabled.
+Fixed a typo in static file controller related to the document type header.
+
+1.2.5
+27.06.2012
+Fixed error message "QThread: Destroyed while thread is still running" during program
+termination.
+
+1.2.4
+02.06.2012
+Fixed template engine skipping variable tokens when a value is shorter than the token.
+
+1.2.3
+26.12.2011
+Fixed null pointer error when the HTTP server aborts a request that is too large.
+
+1.2.2
+06.11.2011
+Fixed compilation error on 64 bit platforms.
+
+1.2.1
+22.10.2011
+Fixed a multi-threading bug in HttpConnectionHandler.
+
+1.2.0
+05.12.2010
+Added a controller that serves static files, with cacheing.
+
+
+1.1.0
+19.10.2010
+Added support for sessions.
+Separated the base classes into individual libraries.
+
+1.0.0
+17.10.2010
+First release
