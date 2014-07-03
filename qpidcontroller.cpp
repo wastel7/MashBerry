@@ -13,6 +13,7 @@
 #include "qpidcontroller.h"
 #include "qtempsensords18b20.h"
 #include "qtempsensorpt1000.h"
+#include "qssrrelayfactory.h"
 
 //#define PID_CYCLE_TIME 5
 
@@ -299,10 +300,10 @@ void QPidController::run()
     bool SkipCycles;
     int cyclewaittime;
 
-    QFile ssr("/sys/devices/platform/ssr_plug.0/ssr_1");
-
-    if(!ssr.open(QIODevice::WriteOnly))
-        dbgout("Couldn't open ssr device!!\n");
+    QSSRrelay *ssr;
+    QSSRrelayFactory SsrFactory;
+    ssr = SsrFactory.GetSSRrelay(1);
+    ssr->Start();
 
     if(m_pTempSensor->GetSampleTime() > 5)
     {
@@ -394,9 +395,7 @@ void QPidController::run()
 
         if(m_AktPower <= 100 && m_AktPower != lastPower)
         {
-            sprintf(power, "%d\n", m_AktPower);
-            ssr.write(power, strlen(power) + 1);
-            ssr.flush();
+            ssr->SetPower(m_AktPower);
             lastPower = m_AktPower;
         }
 

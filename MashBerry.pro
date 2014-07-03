@@ -40,7 +40,10 @@ SOURCES += main.cpp\
     qmysettings.cpp \
     qtempsensorpt1000.cpp \
     qtempsensords18b20.cpp \
-    qgpio.cpp
+    qgpio.cpp \
+    qssrrelayfactory.cpp \
+    qssrrelaygpio.cpp \
+    qssrrelaykernel.cpp
 
 HEADERS  += mainwindow.h \
     PID/PID_v1.h \
@@ -69,7 +72,11 @@ HEADERS  += mainwindow.h \
     qmysettings.h \
     qtempsensorpt1000.h \
     qtempsensords18b20.h \
-    qgpio.h
+    qgpio.h \
+    qssrrelay.h \
+    qssrrelayfactory.h \
+    qssrrelaygpio.h \
+    qssrrelaykernel.h
 
 FORMS    += mainwindow.ui
 
