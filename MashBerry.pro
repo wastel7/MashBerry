@@ -85,3 +85,6 @@ INSTALLS += target
 !win32:LIBS += -llirc_client
 
 OTHER_FILES +=
+
+RESOURCES += \
+    splash.qrc
