@@ -21,11 +21,11 @@ int main(int argc, char *argv[])
     QPixmap pixmap(":/MashBerryLogo.PNG");
     QSplashScreen splash(pixmap);
     splash.show();
-    //splash.showFullScreen();
+    splash.showFullScreen();
 
     QFont splashFont;
     splashFont.setFamily("Arial");
-    splashFont.setBold(true);
+//    splashFont.setBold(true);
     splashFont.setPixelSize(11);
 
     splash.setFont(splashFont);
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
     MainWindow w;
 
     QTimer::singleShot(10000, &splash, SLOT(close()));
-    QTimer::singleShot(10000, &w, SLOT(show()));
+    QTimer::singleShot(10000, &w, SLOT(showFullScreen()));
 //    splash.finish(&w);
 //    w.show();
     

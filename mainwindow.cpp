@@ -54,7 +54,7 @@ MainWindow::MainWindow(QWidget *parent) :
 //    ui = new Ui::MainWindow;
     ui->setupUi(this);
 #ifndef Q_OS_WIN
-    showFullScreen();
+//    showFullScreen();
     //QApplication::setStyle("plastique");
 #endif
     m_pRecipeManager = new QRecipeManager(this);
