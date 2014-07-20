@@ -1,7 +1,7 @@
 #ifndef QSSRRELAYGPIO_H
 #define QSSRRELAYGPIO_H
 
-#include "QSSRrelay.h"
+#include "qssrrelay.h"
 #include "qgpio.h"
 
 class QSSRrelayGPIO : public QSSRrelay

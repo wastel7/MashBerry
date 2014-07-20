@@ -2,7 +2,7 @@
 #define QSSRRELAYFACTORY_H
 
 #include <QObject>
-#include "QSSRrelay.h"
+#include "qssrrelay.h"
 
 class QSSRrelayFactory : public QObject
 {

@@ -1,7 +1,7 @@
 #ifndef QSSRRELAYKERNEL_H
 #define QSSRRELAYKERNEL_H
 
-#include "QSSRrelay.h"
+#include "qssrrelay.h"
 #include <QFile>
 
 class QSSRrelayKernel : public QSSRrelay
