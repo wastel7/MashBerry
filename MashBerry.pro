@@ -82,7 +82,7 @@ FORMS    += mainwindow.ui
 
 target.path += /usr/bin
 INSTALLS += target
-!win32:LIBS += -llirc_client
+!win32:LIBS +=-L$$PWD/lib -llirc_client
 
 OTHER_FILES +=
 
