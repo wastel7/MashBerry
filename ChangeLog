@@ -1,0 +1,11 @@
+Version 1.2
+ - SD-Image: use Raspbian(2014-06-20) as base image
+ - Add splashscreen with IP-address
+
+Version 1.1
+ - SD-Image: enable dhcp for ethernet interface
+ - Fix DS1820 temperature sensor recognition problem
+ 
+Version 1.0
+ - Initial release
+ 
